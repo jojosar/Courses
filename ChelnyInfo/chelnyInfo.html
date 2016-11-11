@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ChelnyInfo - телефонный справочник организаций города Набережные Челны</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/chelnyinfo.css">
+    <link rel="icon" href="imgs/favicons.png">
+</head>
+<body>
+  <header class="page-header">
+    <div class="page-header__banner"></div>
+    <div class="header-content clearfix">
+      <a class="header-content__link" href="#">Набережные Челны</a>
+
+      <nav class="hdr-menu">
+        <ul class="hdr-menu__list">
+          <li class="hdr-menu__item">
+            <a class="hdr-menu__link" href="#">Справочник</a>
+<li class="hdr-menu__item">
+            <a class="hdr-menu__link" href="#">Новости</a>
+          <li class="hdr-menu__item">
+            <a class="hdr-menu__link" href="#">Прайсы</a>
+          <li class="hdr-menu__item">
+            <a class="hdr-menu__link" href="#">Карта</a>
+          <li class="hdr-menu__item">
+            <a class="hdr-menu__link" href="#">Афиша</a>
+          <li class="hdr-menu__item">
+            <a class="hdr-menu__link" href="#">Объявления</a>
+          <li class="hdr-menu__item">
+            <a class="hdr-menu__link" href="#">Работа</a>
+          <li class="hdr-menu__item">
+            <a class="hdr-menu__link" href="#">Тендеры</a>
+        </ul>
+      </nav>
+
+      <div class="header-content__age-control"> 16+ </div>
+
+      <div class="seach-bar">
+        <a class="seach-bar__link" href="chelnyinfo.html">бизнес портал Chelny-info</a>
+        <p class="seach-bar__about">on-line справочник Татарстана</p>
+        <form class="seach-form" action="echo" method="get">
+          <input type="text" name="seach-text" autocomplete="off" placeholder="Я ищу...">
+          <button type="reset"></button>
+          <input type="submit" name="header-form-submit" value="Найти">
+        </form>
+      </div>
+
+        <a href="#" class="seach-bar__add-org">Добавить организацию</a>
+
+      <ul class="extra-info">
+        <li class="extra-info__item">&#36; 63.5773&#11015;
+        <li class="extra-info__item"> &#8364; 70.5644&#11014;
+        <li class="extra-info__item">Сегодня
+            <span class="extra-info__weather-icon" title="солнечно">0</span>
+        <li class="extra-info__item">Завтра
+            <span class="extra-info__weather-icon weather-tomorrow" title="пасмурно">+1</span>
+      </ul>
+
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="news clearfix">
+      <h1 class="news__h">Новости</h1>
+
+      <article class="news-preview">
+        <a class="news-preview__link-by-img" href="#">
+          <img class="news-preview__img" src="imgs/barboskiny.jpg" alt="Барбоскины отмечают 5 лет">
+        </a>
+        <div class="news__info-visits">
+          <span>просмотров </span>23
+        </div>
+        <div class="news__info-date">
+          <time datetime="2016-10-27">27.10.2016</time>
+        </div>
+        <h2 class="news-preview__h">
+          <a class="news-preview__h-link" href="#">Барбоскиным - 5 лет!</a>
+        </h2>
+        <p class="news-preview__short-about">День рождения Барбоскиных!</p>
+      </article>
+
+      <ul class="news-list">
+        <li class="news-list__item">
+          <div class="news__info-visits">
+            <span>просмотров </span>23
+          </div>
+          <div class="news__info-date">
+            <time datetime="2016-10-27">27.10.2016</time>
+          </div>
+          <p class="news-list__short-about">
+            <a class="news-list__link" href="#">Барбоскиным - 5 лет!</a>
+          </p>
+
+        <li class="news-list__item">
+          <div class="news__info-visits">
+            <span>просмотров </span>18
+          </div>
+          <div class="news__info-date">
+            <time datetime="2016-10-27">27.10.2016</time>
+          </div>
+          <p class="news-list__short-about">
+            <a class="news-list__link" href="#">Доктора Стрэнджа покажут раньше</a>
+          </p>
+
+        <li class="news-list__item">
+          <div class="news__info-visits">
+            <span>просмотров </span>47
+          </div>
+          <div class="news__info-date">
+            <time datetime="2016-10-27">26.10.2016</time>
+          </div>
+          <p class="news-list__short-about">
+            <a class="news-list__link" href="#">Уникальный для России завод открылся
+          в Набережных Челнах</a>
+          </p>
+
+        <li class="news-list__item">
+          <div class="news__info-visits">
+            <span>просмотров </span>48
+          </div>
+          <div class="news__info-date">
+            <time datetime="2016-10-27">25.10.2016</time>
+          </div>
+          <p class="news-list__short-about">
+            <a class="news-list__link" href="#">Чемпионат мира по борьбе на поясах пройдет
+            в Набережных Челнах</a>
+          </p>
+
+        <li class="news-list__item">
+          <div class="news__info-visits">
+            <span>просмотров </span>57
+          </div>
+          <div class="news__info-date">
+            <time datetime="2016-10-27">25.10.2016</time>
+          </div>
+          <p class="news-list__short-about">
+            <a class="news-list__link" href="#">Четыре компании откроют заведения на фудкорте
+          Sunrise City</a>
+          </p>
+
+      </ul>
+      <a class="news__more" href="#">cмотреть все</a>
+    </section>
+  </main>
+</body>
+</html>
